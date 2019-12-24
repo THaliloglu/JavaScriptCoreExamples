@@ -16,8 +16,9 @@
 		FD0FA62522E34C2600CE71AB /* Console.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0FA62422E34C2600CE71AB /* Console.m */; };
 		FD0FA62722E34F6900CE71AB /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = FD0FA62622E34F6900CE71AB /* main.js */; };
 		FD0FA62A22E350DD00CE71AB /* JSCoreSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0FA62922E350DD00CE71AB /* JSCoreSupport.m */; };
-		FD0FA62D22E3513E00CE71AB /* JSExportProtocols.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0FA62C22E3513E00CE71AB /* JSExportProtocols.m */; };
 		FD49929122E3605E00F137CD /* UIView+JavaScriptCoreDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = FD49928F22E3605E00F137CD /* UIView+JavaScriptCoreDemo.m */; };
+		FDF6960523AEA33F0063F3C0 /* JSExportProtocols.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF6960423AEA33F0063F3C0 /* JSExportProtocols.m */; };
+		FDF6961123B29C320063F3C0 /* UIViewCAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF6960F23B29C320063F3C0 /* UIViewCAPI.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +37,12 @@
 		FD0FA62622E34F6900CE71AB /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		FD0FA62822E350DD00CE71AB /* JSCoreSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCoreSupport.h; sourceTree = "<group>"; };
 		FD0FA62922E350DD00CE71AB /* JSCoreSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCoreSupport.m; sourceTree = "<group>"; };
-		FD0FA62B22E3513E00CE71AB /* JSExportProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSExportProtocols.h; sourceTree = "<group>"; };
-		FD0FA62C22E3513E00CE71AB /* JSExportProtocols.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSExportProtocols.m; sourceTree = "<group>"; };
 		FD49928F22E3605E00F137CD /* UIView+JavaScriptCoreDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JavaScriptCoreDemo.m"; sourceTree = "<group>"; };
 		FD49929022E3605E00F137CD /* UIView+JavaScriptCoreDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JavaScriptCoreDemo.h"; sourceTree = "<group>"; };
+		FDF6960323AEA33F0063F3C0 /* JSExportProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSExportProtocols.h; sourceTree = "<group>"; };
+		FDF6960423AEA33F0063F3C0 /* JSExportProtocols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSExportProtocols.m; sourceTree = "<group>"; };
+		FDF6960F23B29C320063F3C0 /* UIViewCAPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIViewCAPI.cpp; sourceTree = "<group>"; };
+		FDF6961023B29C320063F3C0 /* UIViewCAPI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UIViewCAPI.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +84,12 @@
 				FD0FA62422E34C2600CE71AB /* Console.m */,
 				FD0FA62822E350DD00CE71AB /* JSCoreSupport.h */,
 				FD0FA62922E350DD00CE71AB /* JSCoreSupport.m */,
-				FD0FA62B22E3513E00CE71AB /* JSExportProtocols.h */,
-				FD0FA62C22E3513E00CE71AB /* JSExportProtocols.m */,
+				FDF6960323AEA33F0063F3C0 /* JSExportProtocols.h */,
+				FDF6960423AEA33F0063F3C0 /* JSExportProtocols.m */,
 				FD49929022E3605E00F137CD /* UIView+JavaScriptCoreDemo.h */,
 				FD49928F22E3605E00F137CD /* UIView+JavaScriptCoreDemo.m */,
+				FDF6961023B29C320063F3C0 /* UIViewCAPI.hpp */,
+				FDF6960F23B29C320063F3C0 /* UIViewCAPI.cpp */,
 				FD78FAB72384733400BBD633 /* Supported Files */,
 			);
 			path = JavaScriptCoreExamples;
@@ -182,11 +187,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD49929122E3605E00F137CD /* UIView+JavaScriptCoreDemo.m in Sources */,
-				FD0FA62D22E3513E00CE71AB /* JSExportProtocols.m in Sources */,
+				FDF6960523AEA33F0063F3C0 /* JSExportProtocols.m in Sources */,
 				FD0FA62A22E350DD00CE71AB /* JSCoreSupport.m in Sources */,
 				FD0FA62522E34C2600CE71AB /* Console.m in Sources */,
 				FD0FA60922E333C000CE71AB /* AppDelegate.m in Sources */,
 				FD0FA61A22E333C800CE71AB /* main.m in Sources */,
+				FDF6961123B29C320063F3C0 /* UIViewCAPI.cpp in Sources */,
 				FD0FA60C22E333C000CE71AB /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

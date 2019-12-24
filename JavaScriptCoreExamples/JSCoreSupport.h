@@ -13,5 +13,6 @@
 
 +(JSContext *)getGlobalContext;
 +(void)runWithContext:(JSContext *)context;
++(void)loadCApiClassesToContext:(JSContext *)context;
 
 @end
