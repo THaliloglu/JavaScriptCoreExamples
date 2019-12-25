@@ -18,7 +18,6 @@
 		FD0FA62A22E350DD00CE71AB /* JSCoreSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0FA62922E350DD00CE71AB /* JSCoreSupport.m */; };
 		FD49929122E3605E00F137CD /* UIView+JavaScriptCoreDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = FD49928F22E3605E00F137CD /* UIView+JavaScriptCoreDemo.m */; };
 		FDF6960523AEA33F0063F3C0 /* JSExportProtocols.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF6960423AEA33F0063F3C0 /* JSExportProtocols.m */; };
-		FDF6961123B29C320063F3C0 /* UIViewCAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF6960F23B29C320063F3C0 /* UIViewCAPI.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +40,6 @@
 		FD49929022E3605E00F137CD /* UIView+JavaScriptCoreDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JavaScriptCoreDemo.h"; sourceTree = "<group>"; };
 		FDF6960323AEA33F0063F3C0 /* JSExportProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSExportProtocols.h; sourceTree = "<group>"; };
 		FDF6960423AEA33F0063F3C0 /* JSExportProtocols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSExportProtocols.m; sourceTree = "<group>"; };
-		FDF6960F23B29C320063F3C0 /* UIViewCAPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UIViewCAPI.cpp; sourceTree = "<group>"; };
-		FDF6961023B29C320063F3C0 /* UIViewCAPI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UIViewCAPI.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +85,6 @@
 				FDF6960423AEA33F0063F3C0 /* JSExportProtocols.m */,
 				FD49929022E3605E00F137CD /* UIView+JavaScriptCoreDemo.h */,
 				FD49928F22E3605E00F137CD /* UIView+JavaScriptCoreDemo.m */,
-				FDF6961023B29C320063F3C0 /* UIViewCAPI.hpp */,
-				FDF6960F23B29C320063F3C0 /* UIViewCAPI.cpp */,
 				FD78FAB72384733400BBD633 /* Supported Files */,
 			);
 			path = JavaScriptCoreExamples;
@@ -192,7 +187,6 @@
 				FD0FA62522E34C2600CE71AB /* Console.m in Sources */,
 				FD0FA60922E333C000CE71AB /* AppDelegate.m in Sources */,
 				FD0FA61A22E333C800CE71AB /* main.m in Sources */,
-				FDF6961123B29C320063F3C0 /* UIViewCAPI.cpp in Sources */,
 				FD0FA60C22E333C000CE71AB /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
