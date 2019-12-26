@@ -43,6 +43,7 @@
     
     JSContext *context = [JSCoreSupport getGlobalContext];
     context[@"windowScene"] = scene;
+    [JSCoreSupport loadCApiClassesToContext:context];
     [JSCoreSupport runWithContext:context];
     
 }

@@ -11,4 +11,14 @@
 
 @interface UIView (JavaScriptCoreDemo)
 
++ (void)__animateWithDuration:(NSTimeInterval)duration
+                   animations:(JSValue *)animationsFunction
+                   completion:(JSValue *)completionFunction;
+
+// TODO : FIX CRASH PROBLEM
+//+ (void)__animateWithDuration:(NSTimeInterval)duration
+//                      context:(JSContextRef)context
+//             animationsObject:(JSObjectRef)animationsObject
+//             completionObject:(JSObjectRef)completionObject;
+
 @end
